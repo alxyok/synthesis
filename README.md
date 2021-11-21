@@ -41,7 +41,7 @@ They are currently trained with backpropagation.
 ## A few stuff
 
 ### Recommended follows
-Lex Fridman, Two-minute papers, francois chollet, steve burton
+Lex Fridman, Two-minute Papers, Francois Chollet, Steve Brunton
 
 ### Current tech-stack
 

@@ -64,7 +64,7 @@ Lex Fridman, Two-minute papers, francois chollet, steve burton
 
 ### Readings
 
-*TODO: for meaningful papers, write an quick abstract*
+*TODO: for meaningful papers, summurize the essence in a quick paragraph.*
 
 This section compiles a few of the interesting papers on the subject in litterature. Shallow, self-made selection.
 

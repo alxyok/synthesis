@@ -6,7 +6,7 @@ Simulations are a key component of contemporary Physics ; it is used to elaborat
 
 They usually rely on solving complex differential equations (ODEs and PDEs), which is notoriously difficult because of a few limitations in a pure computer-science perspective, notably: probably intractable, probably continuous, probably no analytical solution. The equations are well known and well understood, but the resolution has been a challenge in many cases for decades, and still an open problem. The are simplified with hypothesis 
 
-The somewhat recent emergence of DL, and their phenomenal generalization properties, has allowed for cross-polinization in a variety of different fields: computer vision, natural language understanding, robotics, cybersecurity, biology, and now physics. 
+The somewhat recent emergence of DL, and their phenomenal generalization properties, has allowed for cross-polinization in a variety of different fields: computer vision, natural language understanding, robotics, cybersecurity, biology, and now physics with scientific DL.
 
 ## Discretization
 
@@ -41,12 +41,24 @@ They are currently trained with backpropagation.
 ## A few stuff
 
 ### Recommended follows
-2
+Lex Fridman, Two-minute papers, francois chollet, steve burton
 
 ### Current tech-stack
-PyTorch Geometric largely recommended for PyTorch users. TF-GNN, maybe? for TensorFlow developers.
+
+1. `docker` to wrap everything code related
+2. `git` for version control
+3. `numpy`, `sklearn`, `scipy` as the scientific calculus libraries
+4. `matplotlib` as the visualization library 
+5. `torch` as deep learning backend
+6. `torch_geometric` to build datasets and train graphnets
+7. `pytorch_lightning` for the boiler-plate + multi-gpu wrappers
+8. `wandb` to log the loss + metrics + artifacts
+9. Google Cloud Platform for quick prototyping
+10. `tensorflow` as the old-school backend
 
 ### Readings
+
+*TODO: for meaningful papers, write an quick abstract*
 
 This section compiles a few of the interesting papers on the subject in litterature. Shallow, self-made selection.
 
@@ -56,8 +68,19 @@ Read papers:
 * [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261)
 * [Differentiable Physics-informed Graph Networks](https://arxiv.org/abs/1902.02950)
 * [Learning to Simulate Complex Physics with Graph Networks](https://arxiv.org/abs/2002.09405)
+* [Physics-aware Difference Graph Networks for Sparsely-Observed Dynamics](https://openreview.net/forum?id=r1gelyrtwH)
+* [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593)
+* [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)
+* [DeepXDE: A deep learning library for solving differential equations](https://arxiv.org/abs/1907.04502)
+* [Fourier Neural Operator for Parametric Partial Differential Equations](https://arxiv.org/abs/2010.08895)
+* [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+* [Graph Attention Networks](https://arxiv.org/abs/1710.10903)
+
+Ongoing:
+* [Physics-Informed Neural Operator for Learning Partial Differential Equations](https://arxiv.org/abs/2111.03794)
 
 Still in the FIRO list (first-in random-out):
+* [Graph Neural Networks in Particle Physics](https://arxiv.org/abs/2007.13681)
 * [Geometric deep learning: going beyond Euclidean data](https://arxiv.org/abs/1611.08097)
 * [Interaction Networks for Learning about Objects, Relations and Physics](https://arxiv.org/abs/1612.00222)
 * [A simple neural network module for relational reasoning](https://arxiv.org/abs/1706.01427)
@@ -65,4 +88,8 @@ Still in the FIRO list (first-in random-out):
 * [Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images](https://arxiv.org/abs/1804.01654)
 * [T-GCN: A Temporal Graph Convolutional Network for Traffic Prediction](https://arxiv.org/abs/1811.05320)
 * [Mesh R-CNN](https://arxiv.org/abs/1906.02739)
-* 
+* [Neural Operator: Graph Kernel Network for Partial Differential Equations](https://arxiv.org/abs/2003.03485)
+* [DPGN: Distribution Propagation Graph Network for Few-shot Learning](https://arxiv.org/abs/2003.14247)
+* [Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud](https://arxiv.org/abs/2003.01251)
+* [Convolutional Kernel Networks for Graph-Structured Data](https://arxiv.org/abs/2003.05189)
+* [Deep Statistical Solvers](https://hal.inria.fr/hal-02974541v2)

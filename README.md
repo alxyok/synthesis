@@ -45,21 +45,22 @@ Lex Fridman, Two-minute papers, francois chollet, steve burton
 
 ### Current tech-stack
 
-1. `docker` to wrap everything code related
-2. `git` for version control
-3. `jupyter lab` and `vscode` as the main dev & debug IDEs
-4. `numpy`, `sklearn`, `scipy` as the scientific calculus libraries
-5. `matplotlib` as the visualization library 
-6. `torch` as deep learning backend
-7. `torch_geometric` to build datasets and train graphnets
-8. `pytorch_lightning` for the boiler-plate + multi-gpu wrappers
-9. `ray.tune` as the main HPO framework
-10. `wandb` to log the loss + metrics + artifacts
-11. `metaflow` for workflow pipelining
-12. `tensorflow` as the old-school backend
-13. `gcloud` GCP for quick prototyping
+1. [`docker`](https://www.docker.com/) to wrap everything code related
+2. [`git`](https://git-scm.com/) for version control
+3. [`jupyter lab`](https://jupyter.org/) and [`vscode`](https://code.visualstudio.com/) as the main dev & debug IDEs
+4. [`numpy`](https://numpy.org/), [`sklearn`](https://scikit-learn.org/), [`scipy`](https://scipy.org/) as the scientific calculus libraries
+5. [`matplotlib`](https://matplotlib.org/) as the visualization library 
+6. [`torch`](https://pytorch.org/) as deep learning backend
+7. [`torch_geometric`](https://pytorch-geometric.readthedocs.io/en/latest/) to build datasets and train graphnets
+8. [`pytorch_lightning`](https://www.pytorchlightning.ai/) for the boiler-plate + multi-gpu wrappers
+9. [`ray.tune`](https://docs.ray.io/en/latest/tune/index.html) as the main HPO framework
+10. [`wandb`](https://wandb.ai/) to log the loss + metrics + artifacts
+11. [`tensorboard`](https://www.tensorflow.org/tensorboard) sometimes to visualize training progression and quick-compare
+12. [`metaflow`](https://metaflow.org/) for workflow pipelining
+13. [`tensorflow`](https://www.tensorflow.org/) as the old-school backend
+14. [`gcloud`](https://cloud.google.com/) GCP for quick prototyping
 
-(soon) `poetry` to packge python-based applications
+(soon) [`poetry`](https://python-poetry.org/) to packge python-based applications
 
 ### Readings
 

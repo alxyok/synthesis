@@ -1,6 +1,6 @@
 # synthesis
 
-***This repo is a compilation of my understanding of *Deep Learning* (DL) applied to numerical simulation. NOT MEANT AS A REFERENCE.***
+***This repo is a compilation of my understanding of *Deep Learning* (DL) applied to numerical simulation. NOT MEANT AS A REFERENCE. More of an always-on memory.***
 
 Simulations are a key component of contemporary Physics ; it is used to elaborate, design and validate innovative ideas for a range of products which design and engineering heavily depend on our understanding Physics—cars, aircrafts, pipelines, nuclear reactors, and more. It drives the product evolution from genesis to prototyping to actual sellable implementation. 
 
@@ -25,14 +25,44 @@ The objective can always be stated as follows: we need to compute a good estimat
 They are currently trained with backpropagation. 
 
 ### Deep learning areas of interest
-* MLPs. Need no introduction
-* CNNs + Unets, convnets that extract local correlations over fixed-grid items.
-* PINNs or pysics-informed neural networks, that incorporate physics knowledge for guided feature extraction. 
-* GNNs. GraphNets, a special flavor of convnets defined on graphs, a more flexible data representation strategy. Hot topic.
+
+* MLPs. Need no introduction.
+* CNNs + Unets, convnets that extract local correlations with small-sized convolutional kernels over fixed-grid items.
+* PINNs or pysics-informed neural networks, that incorporate physics knowledge in the optimization problem for guided feature extraction. Captures the dynamics better.
+* GNNs. GraphNets, a special flavor of convnets defined on graphs, a more suitable, more flexible data representation strategy. 
 * CloudNets for points clouds problems that treat every element independently, but still compiles volume information in a meaningful manner for local exploitation.
-* FNOs
+* FNOs, fourier neural operators 
 * Bayesian nets
 * Data assimilation
 
 ### Strategies
 * Bayesian
+
+## A few stuff
+
+### Recommended follows
+2
+
+### Current tech-stack
+PyTorch Geometric largely recommended for PyTorch users. TF-GNN, maybe? for TensorFlow developers.
+
+### Readings
+
+This section compiles a few of the interesting papers on the subject in litterature. Shallow, self-made selection.
+
+Read papers:
+* [Deep k-Nearest Neighbors: Towards Confident, Interpretable and Robust Deep Learning](https://arxiv.org/abs/1803.04765)
+* [Graph Networks as Learnable Physics Engines for Inference and Control](https://arxiv.org/abs/1806.01242)
+* [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261)
+* [Differentiable Physics-informed Graph Networks](https://arxiv.org/abs/1902.02950)
+* [Learning to Simulate Complex Physics with Graph Networks](https://arxiv.org/abs/2002.09405)
+
+Still in the FIRO list (first-in random-out):
+* [Geometric deep learning: going beyond Euclidean data](https://arxiv.org/abs/1611.08097)
+* [Interaction Networks for Learning about Objects, Relations and Physics](https://arxiv.org/abs/1612.00222)
+* [A simple neural network module for relational reasoning](https://arxiv.org/abs/1706.01427)
+* [Graph Signal Processing: Overview, Challenges and Applications](https://arxiv.org/abs/1712.00468)
+* [Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images](https://arxiv.org/abs/1804.01654)
+* [T-GCN: A Temporal Graph Convolutional Network for Traffic Prediction](https://arxiv.org/abs/1811.05320)
+* [Mesh R-CNN](https://arxiv.org/abs/1906.02739)
+* 

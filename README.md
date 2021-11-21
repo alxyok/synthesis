@@ -1,6 +1,6 @@
 # synthesis
 
-***This repo is a compilation of my understanding of *Deep Learning* (DL) applied to numerical simulation. NOT MEANT AS A REFERENCE. More of an always-on memory.***
+***This repo is a compilation of my understanding of *Deep Learning* (DL) applied to numerical simulation. NOT MEANT AS A REFERENCE. More of a high-availability memory.***
 
 Simulations are a key component of contemporary Physics ; it is used to elaborate, design and validate innovative ideas for a range of products which design and engineering heavily depend on our understanding Physics—cars, aircrafts, pipelines, nuclear reactors, and more. It drives the product evolution from genesis to prototyping to actual sellable implementation. 
 
@@ -47,14 +47,19 @@ Lex Fridman, Two-minute papers, francois chollet, steve burton
 
 1. `docker` to wrap everything code related
 2. `git` for version control
-3. `numpy`, `sklearn`, `scipy` as the scientific calculus libraries
-4. `matplotlib` as the visualization library 
-5. `torch` as deep learning backend
-6. `torch_geometric` to build datasets and train graphnets
-7. `pytorch_lightning` for the boiler-plate + multi-gpu wrappers
-8. `wandb` to log the loss + metrics + artifacts
-9. Google Cloud Platform for quick prototyping
-10. `tensorflow` as the old-school backend
+3. `jupyter lab` and `vscode` as the main dev & debug IDEs
+4. `numpy`, `sklearn`, `scipy` as the scientific calculus libraries
+5. `matplotlib` as the visualization library 
+6. `torch` as deep learning backend
+7. `torch_geometric` to build datasets and train graphnets
+8. `pytorch_lightning` for the boiler-plate + multi-gpu wrappers
+9. `ray.tune` as the main HPO framework
+10. `wandb` to log the loss + metrics + artifacts
+11. `metaflow` for workflow pipelining
+12. `tensorflow` as the old-school backend
+13. `gcloud` GCP for quick prototyping
+
+(soon) `poetry` to packge python-based applications
 
 ### Readings
 
